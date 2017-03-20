@@ -12,6 +12,7 @@ libraryDependencies ++= Seq(
   "org.apache.spark" % "spark-sql_2.11" % "1.6.1",
   "org.apache.spark" % "spark-streaming_2.11" % "1.6.1",
   "org.apache.spark" % "spark-streaming-kafka_2.11" % "1.6.1",
+  "org.apache.bahir" % "spark-streaming-mqtt_2.11" % "2.1.0",
   "mysql" % "mysql-connector-java" % "5.1.36",
   "ch.qos.logback" % "logback-classic" % "1.1.7",
   "com.google.code.gson" % "gson" % "2.8.0",
